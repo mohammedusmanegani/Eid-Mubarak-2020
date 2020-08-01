@@ -233,38 +233,21 @@ header a, a:visited {
   .takbeer-player{
     display: inline-block;
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 0;
     bottom: 0;
     text-align: center;
     z-index: 100000000000000000;
-    margin-left: 620px;
   }
 
   @media only screen and (max-width: 600px) {
     .takbeer-player{
       display: inline-block;
       position: absolute;
-      top: 10px;
+      top: 0;
       left: 0;
       bottom: 0;
       text-align: center;
       z-index: 100000000000000000;
-      margin-left: 105px;
     }
-  }
-
-  button{
-    border: 1px solid #ffffff;
-    background: transparent;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    transition: 0.4s;
-  }
-  button:hover{
-    cursor: pointer;
-    background: #fff;
-    color: #000;
-    transition: 0.4s;
   }
